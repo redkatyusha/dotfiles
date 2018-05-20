@@ -1,0 +1,65 @@
+#define white			#f8f8f2
+#define cream			#d7f7b7
+#define black			#272822
+#define grey			#75715e
+#define pink			#f92772
+#define green			#a6e22d
+#define aqua			#66d9ef
+#define orange			#fd9720
+#define purple			#ae81ff
+#define red			#e73c59
+#define darkred			#5f0000
+#define backgroundcolor		#272822
+#define foregroundcolor		#f8f8f2
+#define foregroundalt		#d7f7b7
+
+*.foreground:			foregroundcolor
+*.background:			backgroundcolor
+*.color0:               	black
+*.color8:			grey
+*.color1:			red
+*.color9:			darkred
+*.color2:			green
+*.color10:			green
+*.color3:			pink
+*.color11:			pink
+*.color4:			aqua
+*.color12:			aqua
+*.color5:			orange
+*.color13:			orange
+*.color6:			purple
+*.color14:			purple
+*.color7:			white
+*.color15:			cream
+
+Xft.dpi:			96
+Xft.antialias:			true
+Xft.rgba:			rgb
+Xft.hinting:			true
+Xft.hintstyle:			hintfull
+
+*background:			backgroundcolor
+*foreground:			foregroundcolor
+
+URxvt*font:			xft:ubuntu mono:size=12:antialias=true
+URxvt.letterSpace:		-1
+
+URxvt*termName:			xterm-256color
+
+URxvt*cursorColor:		foregroundalt
+URxvt.cursorBlink:		true
+URxvt.transparent:		true
+URxvt.shading:			25
+URxvt.fading:			50
+URxvt.fadeColor:		backgroundcolor
+
+URxvt*saveLines:        	10000
+URxvt*externalBorder:		0
+URxvt*internalBorder:		4
+
+URxvt*scrollBar:        	true
+URxvt*scrollBar_floating:	true
+URxvt.thickness:        	2
+URxvt.scrollColor:      	black
+URxvt.scrollstyle:      	plain
+URxvt.skipScroll:		false
